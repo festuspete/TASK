@@ -8,6 +8,8 @@ for (let index = 0; index <=15; index++) {
         document.body.appendChild(newH1);
     } 
     else if (index % 2 == 1) {
-        
+        const newH2 = document.createElement('h2');
+        newH2.innerHTML = `${index} is an odd number`;
+        document.body.appendChild(newH2);
     }
-}
+};
