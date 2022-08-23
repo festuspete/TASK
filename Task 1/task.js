@@ -6,5 +6,8 @@ for (let index = 0; index <=15; index++) {
         const newH1 = document.createElement('h1');
         newH1.innerHTML = `${index} is an even number`;
         document.body.appendChild(newH1);
+    } 
+    else if (index % 2 == 1) {
+        
     }
 }
