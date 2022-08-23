@@ -12,3 +12,4 @@ for (let i = 0; i < number.length; i++) {
 }
 //Create Alert
 alert(`output: ${largest}`);
+document.write(`output: ${largest}`);
